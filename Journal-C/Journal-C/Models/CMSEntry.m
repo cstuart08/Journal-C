@@ -22,4 +22,27 @@
     return self;
 }
 
+-(NSMutableDictionary *)dictionaryCopy {
+    
+    // var dictionary: [String:Any] = [:]
+    NSMutableDictionary <NSString *, id> *dictionary = [[NSMutableDictionary alloc] init];
+    dictionary[@"titleKey"] = self.title;
+    dictionary[@"bodyText"] = self.bodyText;
+    dictionary[@"timeStamp"] = self.timeStamp;
+    
+    return dictionary;
+}
+
+-(instancetype)initWithDictionary:(NSMutableDictionary<NSString *,id> *)dictionary {
+    
+    self = [super init];
+    
+    if (self) {
+        _title = dictionary[@"titleKey"];
+        _bodyText = dictionary[@"bodyText"];
+        _timeStamp = dictionary[@"timeStamp"];
+    }
+    return self;
+}
+
 @end

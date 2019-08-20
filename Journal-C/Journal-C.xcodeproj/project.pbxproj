@@ -13,6 +13,9 @@
 		D4F99B20230B1508007A6661 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4F99B1E230B1508007A6661 /* LaunchScreen.storyboard */; };
 		D4F99B23230B1508007A6661 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D4F99B22230B1508007A6661 /* main.m */; };
 		D4F99B2F230B15EB007A6661 /* CMSEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = D4F99B2E230B15EB007A6661 /* CMSEntry.m */; };
+		D4F99B32230B1B46007A6661 /* CMSEntryController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4F99B31230B1B46007A6661 /* CMSEntryController.m */; };
+		D4F99B35230B322D007A6661 /* CMSEntryListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4F99B34230B322D007A6661 /* CMSEntryListTableViewController.m */; };
+		D4F99B3B230B3F8F007A6661 /* CMSEntryDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4F99B3A230B3F8F007A6661 /* CMSEntryDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,12 @@
 		D4F99B22230B1508007A6661 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D4F99B2D230B15EB007A6661 /* CMSEntry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMSEntry.h; sourceTree = "<group>"; };
 		D4F99B2E230B15EB007A6661 /* CMSEntry.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMSEntry.m; sourceTree = "<group>"; };
+		D4F99B30230B1B46007A6661 /* CMSEntryController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMSEntryController.h; sourceTree = "<group>"; };
+		D4F99B31230B1B46007A6661 /* CMSEntryController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMSEntryController.m; sourceTree = "<group>"; };
+		D4F99B33230B322D007A6661 /* CMSEntryListTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMSEntryListTableViewController.h; sourceTree = "<group>"; };
+		D4F99B34230B322D007A6661 /* CMSEntryListTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMSEntryListTableViewController.m; sourceTree = "<group>"; };
+		D4F99B39230B3F8F007A6661 /* CMSEntryDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMSEntryDetailViewController.h; sourceTree = "<group>"; };
+		D4F99B3A230B3F8F007A6661 /* CMSEntryDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMSEntryDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +92,10 @@
 		D4F99B2A230B157A007A6661 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				D4F99B33230B322D007A6661 /* CMSEntryListTableViewController.h */,
+				D4F99B34230B322D007A6661 /* CMSEntryListTableViewController.m */,
+				D4F99B39230B3F8F007A6661 /* CMSEntryDetailViewController.h */,
+				D4F99B3A230B3F8F007A6661 /* CMSEntryDetailViewController.m */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -90,6 +103,8 @@
 		D4F99B2B230B1583007A6661 /* Model Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				D4F99B30230B1B46007A6661 /* CMSEntryController.h */,
+				D4F99B31230B1B46007A6661 /* CMSEntryController.m */,
 			);
 			path = "Model Controllers";
 			sourceTree = "<group>";
@@ -174,7 +189,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4F99B32230B1B46007A6661 /* CMSEntryController.m in Sources */,
 				D4F99B23230B1508007A6661 /* main.m in Sources */,
+				D4F99B3B230B3F8F007A6661 /* CMSEntryDetailViewController.m in Sources */,
+				D4F99B35230B322D007A6661 /* CMSEntryListTableViewController.m in Sources */,
 				D4F99B15230B1507007A6661 /* AppDelegate.m in Sources */,
 				D4F99B2F230B15EB007A6661 /* CMSEntry.m in Sources */,
 			);

@@ -20,6 +20,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 -(instancetype) initWithTile:(NSString *)title bodyText:(NSString *)bodyText;
 
+-(NSMutableDictionary *) dictionaryCopy;
+
+-(instancetype) initWithDictionary:(NSMutableDictionary<NSString *, id>*)dictionary;
+
 @end
 
 NS_ASSUME_NONNULL_END
